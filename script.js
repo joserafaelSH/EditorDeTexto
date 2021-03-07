@@ -63,6 +63,7 @@ var btn5 = document.getElementById("5")
 btn5.addEventListener("click", ()=>{
     var texto = document.getElementById("objeto_texto")
     texto.classList.toggle("capitalizar")
+    btn5.classList.toggle("ativo")
 })
 
 //Primeira letra
@@ -84,6 +85,7 @@ var btn7 = document.getElementById("7")
 btn7.addEventListener("click", ()=>{
     var texto = document.getElementById("objeto_texto")
     texto.classList.toggle("negrito")
+    btn7.classList.toggle("ativo")
 })
 
 
@@ -92,6 +94,7 @@ var btn8 = document.getElementById("8")
 btn8.addEventListener("click", ()=>{
     var texto = document.getElementById("objeto_texto")
     texto.classList.toggle("italico")
+    btn8.classList.toggle("ativo")
 })
 var controle8 = 8
 
@@ -103,6 +106,7 @@ var btn10 = document.getElementById("10")
 btn10.addEventListener("click", ()=>{
     var texto = document.getElementById("objeto_texto")
     texto.classList.toggle("sublinhado")
+    btn10.classList.toggle("ativo")
 })
 
 //aplicar risco
@@ -110,6 +114,7 @@ var btn11 = document.getElementById("11")
 btn11.addEventListener("click", ()=>{
     var texto = document.getElementById("objeto_texto")
     texto.classList.toggle("risco")
+    btn11.classList.toggle("ativo")
 })
 
 
